@@ -54,13 +54,12 @@ const TaskList = () => {
         {tasks.map((task) => (
           <li key={task._id} className="task-item">
             <strong>{task.title}</strong> - {task.status}
-
+           
             {task.owner && (
-              <span style={{ marginLeft: 10 }}>
-                {task.owner.name} ({task.owner.email})
-              </span>
-            )}
-
+             <span style={{ marginLeft: 10 }}>
+               {task.owner.name}
+             </span>
+           )}
             <div className="task-actions">
               <button
                 className="edit-btn"
