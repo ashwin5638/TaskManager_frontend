@@ -13,7 +13,7 @@ ________________________________________
 🚀 Live Demo     
 
 Frontend (Vercel):                     
-https://your-frontend-url.vercel.app                                                       
+https://task-manager-frontend-seven-mauve.vercel.app/                                                      
 Backend (Render):                                                      
 https://taskmanager-backend1-46y3.onrender.com           
 ________________________________________
